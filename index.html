@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,edge,chrome=1">
+    <title>SanLis Gestão</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <!-- SEO -->
+    <meta name="description" content="SanLis Gestão Serviços especializados em gestão empresarial.">
+    <meta name="keywords" content="gestão,serviços especializados,empresarial,consultoria">
+    <meta name="author" content="Angelita Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- JavaScript, Font Awesome, Google Font, CSS -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/conteudo.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/f7cb610b49.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- Navegação -->
+    <header id="navegacao">
+        <nav>
+            <nav>
+                <h3><a href="#" onclick="mostrarSite()">SanLis Gestão</a></h3>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href="#quemsomos" onclick="mostrarSite()">Equipe</a></li>
+                    <li><a href="#servicos" onclick="mostrarSite()">Serviços</a></li>
+                    <li><a href="#artigos" onclick="mostrarSite()">Artigos</a></li>
+                    <li><a href="#contato" onclick="mostrarSite()">Contato</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <!-- Site -->
+    <main id="site">
+
+        <!-- Apresentação -->
+        <div>
+            <img id="imgPrincipal" alt="">
+            <label id="textoPrincipal"></label>
+        </div>
+
+        <!-- Quem somos -->
+        <section id="quemsomos">
+            <h2>Quem Somos</h2>
+            <p class="textoQuemSomos"></p>
+            <div><button type="button" onclick="mostrarEquipe()">Nossa equipe</button></div>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos">
+
+            <h2>Nossos Serviços</h2>
+
+            <!-- Financeiro -->
+            <h5>Gestão Financeira</h5>
+
+            <div class="cardsgroup">
+
+                <!-- Retorno do Investimento -->
+                <article class="card">
+                    <header>
+                        <h6>Retorno do Investimento</h6>
+                    </header>
+                    <div>
+                        <p class="textoFinanceiro1"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+                <!-- Aumento das Receitas -->
+                <article class="card">
+                    <header>
+                        <h6>Aumento das Receitas</h6>
+                    </header>
+                    <div>
+                        <p class="textoFinanceiro2"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+                <!-- Redução de Custos -->
+                <article class="card">
+                    <header>
+                        <h6>Redução de Custos</h6>
+                    </header>
+                    <div>
+                        <p class="textoFinanceiro3"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+            </div>
+
+            <!-- Processos -->
+            <h5>Gestão de Processos</h5>
+
+            <div class="cardsgroup">
+
+                <!-- Reestruturação dos Processos -->
+                <article class="card">
+                    <header>
+                        <h6>Reestruturação dos Processos</h6>
+                    </header>
+                    <div>
+                        <p class="textoProcesso1"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+                <!-- Melhoria da Eficiência Operacional -->
+                <article class="card">
+                    <header>
+                        <h6>Melhoria da Eficiência</h6>
+                    </header>
+                    <div>
+                        <p class="textoProcesso2"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+                <!-- Gestão de Tarefas -->
+                <article class="card">
+                    <header>
+                        <h6>Gestão de Tarefas</h6>
+                    </header>
+                    <div>
+                        <p class="textoProcesso3"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+            </div>
+
+            <!-- Estrutura -->
+            <h5>Gestão de Estrutura</h5>
+
+            <div class="cardsgroup">
+
+                <!-- Estratégia -->
+                <article class="card">
+                    <header>
+                        <h6>Criação de Estratégia</h6>
+                    </header>
+                    <div>
+                        <p class="textoEstrutura1"></p>
+                    </div>
+                    <footer> <button class="btnInfo" type="button" onclick="mostrarBlog()"></button> </footer>
+                </article>
+
+                <!-- Alinhamento das Metas -->
+                <article class="card">
+                    <header>
+                        <h6>Alinhamento das Metas</h6>
+                    </header>
+                    <div>
+                        <p class="textoEstrutura2"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+                <!-- Desenvolvimento das Pessoas -->
+                <article class="card">
+                    <header>
+                        <h6>Desenvolvimento das Pessoas</h6>
+                    </header>
+                    <div>
+                        <p class="textoEstrutura3"></p>
+                    </div>
+                    <footer><button class="btnInfo" type="button" onclick="mostrarBlog()"></button></footer>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Artigos -->
+        <section id="artigos">
+            <h2>Artigos</h2>
+
+            <!-- Estrutura -->
+            <div class="cardsgroup">
+
+                <!-- Financeiro -->
+                <article class="card">
+                    <header>
+                        <img class="imgFinanceiro" alt="">
+                        <h6>Resultados</h6>
+                        <p>Publicado em: 15/11/2020</p>
+                        <hr>
+                    </header>
+                    <div>
+                        <p class="artigoFinanceiro"></p>
+                    </div>
+                    <footer><a class="linkInfo" href="#" onclick="mostrarBlog()"></a></footer>
+                </article>
+
+                <!-- Processos -->
+                <article class="card">
+                    <header>
+                        <img class="imgProcessos" alt="">
+                        <h6>Reestruturação</h6>
+                        <p>Publicado em: 15/11/2020</p>
+                        <hr>
+                    </header>
+                    <div>
+                        <p class="artigoProcesso"></p>
+                    </div>
+                    <footer><a class="linkInfo" href="#" onclick="mostrarBlog()"></a></footer>
+                </article>
+
+                <!-- Estrutura -->
+                <article class="card">
+                    <header>
+                        <img class="imgEstrutura" alt="">
+                        <h6>Estratégia</h6>
+                        <p>Publicado em: 15/11/2020</p>
+                        <hr>
+                    </header>
+                    <div>
+                        <p class="artigoEstrutura"></p>
+                    </div>
+                    <footer><a class="linkInfo" href="#" onclick="mostrarBlog()"></a></footer>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <!-- Contato -->
+            <div class="cardsgroup">
+
+                <!-- E-mail e Telefone -->
+                <article class="card">
+                    <header>
+                        <h6>Dados para Contato</h6><br>
+                        <p><strong>E-mail</strong></p>
+                        <p><a href="https://outlook.live.com/owa/" target="_blank" role="button">sanlisgestao@hotmail.com</a></p><br>
+                        <p><strong>Telefone</strong></p>
+                        <p>(31) 98112-4429</p><br>
+                        <p><strong>Horário de atendimento</strong></p>
+                        <p>Segunda-feira a Sexta-feira</p>
+                        <p>08h00 às 18h00</p>
+                    </header>
+
+                </article>
+
+                <!-- Redes Sociais -->
+                <article class="card">
+                    <header>
+                        <h6>Redes Sociais</h6><br>
+                    </header>
+                    <div class="redesSociais">
+                        <div class="redesSociaisCard">
+                            <a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="fab fa-whatsapp-square fa-2x"></i></a>
+                            <a href="https://web.telegram.org/" target="_blank"><i
+                                    class="fab fa-telegram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="redesSociais">
+                        <div class="redesSociaisCard">
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="redesSociais">
+                        <div class="redesSociaisCard">
+                            <a href="https://www.instagram.com/sanlisgestao" target="_blank"><i
+                                    class="fab fa-instagram fa-2x"></i></a>
+                            <a href="https://www.twitter.com/sanlisgestao" target="_blank"><i
+                                    class="fab fa-twitter-square fa-2x"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Fale conosco -->
+                <article class="card">
+                    <header>
+                        <h6>Envie-nos sua dúvida</h6>
+                    </header>
+                    <form>
+                        <div>
+                            <div>
+                                <input type="text" placeholder="Nome">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div>
+                            <select>
+                                <option>Escolha o Assunto</option>
+                                <option>Gestão de Estrutura</option>
+                                <option>Gestão de Processos</option>
+                                <option>Gestão Financeira</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea placeholder="Mensagem"></textarea>
+                        </div>
+                        <button type="button">Enviar</button>
+                    </form>
+                </article>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Nossa equipe -->
+    <main id="equipe">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Nossos clientes -->
+    <main id="clientes">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Blog -->
+    <main id="blog">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Downloads -->
+    <main id="download">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Agenda -->
+    <main id="agenda">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Podcast -->
+    <main id="podcast">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Área Restrita - Entrar -->
+    <main id="arearestrita">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Área Restrita - Registrar -->
+    <main id="registro">
+        <div class="emconstrucao">
+            <h2 class="emConstrucao"></h2>
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-- Rodapé -->
+    <footer id="rodape">
+
+        <!-- Rodapé -->
+        <div class="cardsgroup">
+
+            <!-- Institucional -->
+            <article class="card">
+                <header>
+                    <h6>Institucional</h6>
+                </header>
+                <ul class="card-body">
+                    <p><a href="#quemsomos" onclick="mostrarSite()">Quem Somos</a></p>
+                    <p><a href="#servicos" onclick="mostrarSite()">Nossos Serviços</a></p>
+                    <p><a href="#clientes" onclick="mostrarClientes()">Nossos Clientes</a></p>
+                </ul>
+            </article>
+
+            <!-- Conteúdo -->
+            <article class="card">
+                <header>
+                    <h6>Conteúdo</h6>
+                </header>
+                <ul class="card-body">
+                    <p><a href="#" onclick="mostrarBlog()">Blog</a></p>
+                    <p><a href="#" onclick="mostrarDownload()">Downloads</a></p>
+                    <p><a href="#" onclick="mostrarAgenda()">Agenda</a></p>
+                    <p><a href="#" onclick="mostrarPodcast()">Podcasts</a></p>
+                </ul>
+            </article>
+
+            <!-- Área Restrita -->
+            <article class="card">
+                <header>
+                    <h6>Área Restrita</h6>
+                </header>
+                <ul>
+                    <li><button type="button" onclick="mostrarAreaRestrita()">Entrar</button></li>
+                    <li><button type="button" onclick="mostrarRegistro()">Registrar</button></li>
+                </ul>
+            </article>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/conteudo.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>

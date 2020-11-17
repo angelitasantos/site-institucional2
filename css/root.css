@@ -1,0 +1,121 @@
+/* ----------------------------------------------------------------- */
+/* ----------------------- Configuração base ----------------------- */
+/* ----------------------------------------------------------------- */
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinzagrey21: #363636;
+    --cinzaDimGray: #696969;
+    --cinzaDarkGray: #A9A9A9;
+    --cinzaLightGrey: #D3D3D3;
+    --verdeDarkGreen: #006400;
+    --verdeForestGreen: #228B22;
+    --verdeYellowGreen: #9ACD32;
+    --verdeOliveDrab: #6B8E23;
+    --verdeDarkOliveGreen: #556B2F;
+    --verdeDarkSeaGreen: #8FBC8F;
+    --verdePaleGreen: #98FB98;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--branco);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--cinzagrey21);
+    font-weight: 200;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin-bottom: 3%;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 2.1rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--verdeDarkGreen);
+    text-decoration: none;
+}
+
+input {
+    width: 170px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background: var(--verdeForestGreen);
+    color: var(--branco);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: var(--verdeYellowGreen);
+    color: var(--verdeDarkGreen);
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 7%;
+}
+
+img {
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+footer div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}

@@ -1,0 +1,123 @@
+@import url("root.css");
+
+/* ----------------------------------------------------------------- */
+/* ------------------------ Responsividade ------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+@media screen and (min-width:1200px) {
+    
+    header img {
+        width: 280px;
+        height: 180px;          
+    }
+
+    #textoPrincipal {
+        font-size: 2.4rem;
+    }
+
+    .card {
+        padding: 10px 20px;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:980px) {
+    
+    section {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 4%;
+    }
+ 
+    h2 {
+        font-size: 2.4rem;
+        padding-top: 5%;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    .cardsgroup {
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+    .card {
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width:700px){
+    
+    nav {
+        display: block;
+        padding: 0px;
+    }
+ 
+    header nav nav ul {
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    section {
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-top: 1%;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+        padding-top: 15%;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    #servicos h5 {
+        text-align: center;
+    }
+
+    .cardsgroup {
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+    .card {
+        width: 48%;
+        padding: 1% 1%;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+
+    section {
+        padding-top: 8%;
+    }
+
+    .card {
+        width: 100%;
+        padding: 3% 1%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    section {
+        padding-top: 15%;
+    }
+
+}

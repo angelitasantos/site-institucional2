@@ -1,0 +1,187 @@
+@import url("root.css");
+
+/* ----------------------------------------------------------------- */
+/* --------------------------- Principal --------------------------- */
+/* ----------------------------------------------------------------- */
+
+
+#navegacao {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--verdeYellowGreen);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px 5px 10px;
+}
+
+header nav nav ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+#imgPrincipal {
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    padding: 0;
+}
+  
+#textoPrincipal {
+    position: absolute;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--branco);
+    left: 20%;
+    right: 20%;
+    top: 40%;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/* --------------------------- Conteúdo ---------------------------- */
+/* ----------------------------------------------------------------- */
+
+section p {
+    padding: 0% 0% 3% 0%;
+}
+
+#quemsomos div {
+    text-align: right;
+}
+
+#servicos h5 {
+    text-align: left;
+    padding-top: 3%;
+}
+
+#contato p {
+    padding: 20px 0px;
+}
+
+.cardsgroup {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.card {
+    width: 33.3%;
+    padding: 10px 1%;
+    text-align: center;
+}
+
+.card footer {
+    text-align: center;
+    padding-top: 5%;
+}
+
+header img {
+    width: 180px;
+    height: 130px;  
+    margin-top: 5%;
+    padding: 0;
+}
+
+article div p {
+    padding-top: 3%;
+}
+
+footer a {
+    color: var(--verdeDarkGreen);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--verdeYellowGreen);
+    text-decoration: none;
+}
+
+#rodape {
+    background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)100%), var(--verdeYellowGreen);
+}
+
+#contato p {
+    padding: 0%;
+}
+
+#contato a {
+    color: var(--verdeDarkGreen);
+}
+
+#contato a:hover {
+    color: var(--verdeYellowGreen);
+}
+
+#contato article div {
+    justify-content: center;
+}
+
+#contato article div div a {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.redesSociais {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.redesSociaisCard {
+    width: 50%;
+    padding: 3% 1%;
+    text-align: center;
+}
+
+#rodape h6 {
+    padding-bottom: 2%;
+}
+
+#rodape p {
+    padding-bottom: 2%;
+}
+
+/* ----------------------------------------------------------------- */
+/* --------------------------- Imagens ----------------------------- */
+/* ----------------------------------------------------------------- */
+
+#imgPrincipal {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)100%), url(../img/principal.webp);
+    background-position: bottom; 
+}
+
+.imgFinanceiro {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/financeiro.jpg);
+}
+
+.imgProcessos {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/processos.webp);
+}
+
+.imgEstrutura {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/estrategia.webp);
+}
+
+.emconstrucao {
+    width: auto;
+    height: 600px;
+    background-color: var(--branco);
+}
+
+.emconstrucao h2 {
+    position: absolute;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--verdeYellowGreen);
+    left: 20%;
+    right: 20%;
+    top: 55%;
+}
