@@ -35,7 +35,7 @@ header nav nav ul {
     position: absolute;
     font-size: 1.4rem;
     text-align: center;
-    color: var(--branco);
+    color: var(--verdeYellowGreen);
     left: 20%;
     right: 20%;
     top: 40%;
@@ -156,6 +156,18 @@ footer a:hover {
 #imgPrincipal {
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)100%), url(../img/principal.webp);
     background-position: bottom; 
+}
+
+.imgPlanoBasico {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/planobasico.webp);
+}
+
+.imgPlanoPrata {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/planoprata.webp);
+}
+
+.imgPlanoOuro {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)100%), url(../img/planoouro.jpg);
 }
 
 .imgFinanceiro {

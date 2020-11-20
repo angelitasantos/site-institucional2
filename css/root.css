@@ -77,11 +77,32 @@ a:hover {
 }
 
 input {
-    width: 170px;
+    width: 275px;
     height: 40px;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+select {
+    width: 275px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+textarea {
+    width: 260px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 2%;
 }
 
 button {

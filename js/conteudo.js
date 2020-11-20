@@ -9,11 +9,26 @@ $("#textoPrincipal").html(textoPrincipal);
 var btnInfo = "Mais informações"
 $(".btnInfo").html(btnInfo);
 
+var btnSaibaMais = "Saiba Mais"
+$(".btnSaibaMais").html(btnSaibaMais);
+
 var linkInfo = "Continue lendo ..."
 $(".linkInfo").html(linkInfo);
 
 var emConstrucao = "Em Desenvolvimento"
 $(".emConstrucao").html(emConstrucao);
+
+var textoAreaRestrita = "Área Restrita"
+$(".textoAreaRestrita").html(textoAreaRestrita);
+
+var planoBasico = "Quer ter o controle de suas atividades na palma da mão?"
+$(".planoBasico").html(planoBasico);
+
+var planoPrata = "Há quanto tempo você trabalha mais de 12 horas por dia?"
+$(".planoPrata").html(planoPrata);
+
+var planoOuro = "O que está faltando para os seus sonhos se tornarem realidade? "
+$(".planoOuro").html(planoOuro);
 
 
 
@@ -22,36 +37,25 @@ $(".textoQuemSomos").html(textoQuemSomos);
 
 
 
-var textoFinanceiro1 = "Auxiliar a reduzir despesas financeiras, melhorar o retorno sobre o patrimônio, obter ganhos no fluxo de caixa operacional e eliminar desperdícios."
-$(".textoFinanceiro1").html(textoFinanceiro1);
+var textoFinanceiro = "Auxiliar a reduzir despesas financeiras, melhorar o retorno sobre o patrimônio, obter ganhos no fluxo de caixa operacional e eliminar desperdícios."
+$(".textoFinanceiro").html(textoFinanceiro);
 
-var textoFinanceiro2 = "Assegurar o crescimento das vendas, a melhoria da lucratividade e a longevidade dos resultados."
-$(".textoFinanceiro2").html(textoFinanceiro2);
+var textoVendas = "Assegurar o crescimento das vendas, a melhoria da lucratividade e a longevidade dos resultados.  Identificar e padronizar as melhores práticas."
+$(".textoVendas").html(textoVendas);
 
-var textoFinanceiro3 = "Identificar e padronizar as melhores práticas e o controle efetivo dos custos envolvidos nos processos produtivos."
-$(".textoFinanceiro3").html(textoFinanceiro3);
-
-
-
-var textoProcesso1 = "Alinhar as responsabilidades de cada tarefa, ajustando o foco na simplificação dos processos."
-$(".textoProcesso1").html(textoProcesso1);
-
-var textoProcesso2 = "Levantar e analisar as interrupções nos processos produtivos e as respectivas causas dessas interrupções, viabilizando um maior ganho de produtividade."
-$(".textoProcesso2").html(textoProcesso2);
-
-var textoProcesso3 = "Gerenciar as rotinas a fim de permitir que profissionais da base sejam capazes de resolver problemas do dia a dia e de minimizar a sobrecarga de supervisores e gerentes."
-$(".textoProcesso3").html(textoProcesso3);
+var textoEstoque = "Equilibrar compras, armazenagem e entregas, controlando as entradas e o consumo de materiais e movimentando o ciclo dos produtos."
+$(".textoEstoque").html(textoEstoque);
 
 
 
-var textoEstrutura1 = "Apoiar os empreendedores na análise do seu ambiente externo e interno e viabilizar a criação de uma visão do futuro com as respectivas estratégias para alcançá-la."
-$(".textoEstrutura1").html(textoEstrutura1);
+var textoCompras = "A otimização dos custos e o potencial aumento da lucratividade sobre as vendas atraves da padronização dos produtos do planejamento das compras com base no perfil dos seus clientes."
+$(".textoCompras").html(textoCompras);
 
-var textoEstrutura2 = "Construir soluções alinhadas com os grandes desafios definidos nas melhorias propostas. Garantir que todos os envolvidos no empreendimento trabalhem de maneira conjunta."
-$(".textoEstrutura2").html(textoEstrutura2);
+var textoProducao = "Levantar e analisar as interrupções nos processos produtivos e as respectivas causas dessas interrupções, viabilizando um maior ganho de produtividade."
+$(".textoProducao").html(textoProducao);
 
-var textoEstrutura3 = "Garantir o desenvolvimento, crescimento e comprometimento das pessoas através da elevação do conhecimento, padronização e valorização do trabalho."
-$(".textoEstrutura3").html(textoEstrutura3);
+var textoAdministrativo = "Gerenciar as rotinas a fim de permitir que profissionais sejam capazes de resolver problemas do dia a dia e de minimizar a sobrecarga de supervisores e gerentes."
+$(".textoAdministrativo").html(textoAdministrativo);
 
 
 
