@@ -15,8 +15,7 @@
     --verdeOliveDrab: #6B8E23;
     --verdeDarkOliveGreen: #556B2F;
     --verdeDarkSeaGreen: #8FBC8F;
-    --verdePaleGreen: #98FB98;
-    
+    --verdePaleGreen: #98FB98; 
 }
 
 * {
@@ -69,6 +68,7 @@ p {
 a {
     color: var(--branco);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -112,11 +112,16 @@ button {
     color: var(--branco);
     border-radius: 10px;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 button:hover {
     background: var(--verdeYellowGreen);
     color: var(--verdeDarkGreen);
+}
+
+a button {
+    color: var(--branco);
 }
 
 li {
